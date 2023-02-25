@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #f8f8f8;
+}
+.navbar{
+    background-color: #ffb83c;
+   
+}
+.navbar-nav{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 0 10rem 0 5rem;
+    gap: 8vw;
+}
+.navList li{
+    list-style: none;
+}
+
+.dropdown-menu{  
+    color: aliceblue ;
+    background-color: #ffb83c !important;
+}
+#browsePost{
+    padding: 2px;
+    border-radius: 1px;
+}
+.navbar ul a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 1.1rem;
+}
+.navbar ul a:hover{
+    color:#00a591;
+}
+.nav-btn{
+    text-decoration: none;
+    color: white;
+    font-size: .4rem;
+    box-sizing: border-box;
+    border-radius: 2px;
+    border: 2px solid #00a591;
+}
+.warning-btn{
+    background-color: #ebb837;
+
+}
+.img-box{   
+    background-image: url('/images/Community.png');
+    background-size:cover;
+    margin-left: 13vw;
+    height: 50vh;
+    width: 60vw;
+    text-align: center;
+    justify-content: center;
+}
+.headings{
+    width: 92vw;
+    margin-top:2rem;
+    padding: 20px;
+    text-align: center;
+}
+.headings h2{
+    max-width: 50%;
+    margin-top: 2rem;
+    margin-left: 22vw;
+}
+.main-top{
+    width: 62vw;
+    margin: 5rem auto;
+    margin-left: 4rem;
+    padding: 20px;
+    background-image: ('Community.png');
+    background-size: cover;
+    text-align:justify;
+}
+.searchBox{    
+    display: flex;
+    justify-content: space-between;
+    padding-top: 7vh;
+    align-items: center;
+    margin-left: 1vw;
+}
+.btn-search{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: 1.1rem;
+    box-sizing: border-box;
+    padding: 3px;
+    margin-left: 2px;
+    border-radius: 5px;
+    border: 2px solid #00a591;
+    background-color: #00a591;
+}
+.btn-search:hover{
+    background-color: #ffb83c;
+    color: rgb(10, 100, 78);
+}
+.btn-search:active{
+    transform: scale(0.96);
+}
+.categories{
+    display: flex;
+    justify-content: space-around;
+    width: 62vw;
+    margin: 5rem auto;
+    padding: 20px;
+    box-shadow: 0px -5px 3px 0 lightslategray ;
+}
+.categories a{
+    text-decoration: none;
+    justify-content: space-between;
+    text-align: justify;  
+    color: black;
+}
+.categories a:hover{
+    color: #ebb837;
+}
+.cat-card{
+    box-sizing: border-box;
+    justify-content: center;
+    align-content: center;
+    padding: 12px;
+    background-color: white;
+    width: 8rem;    
+    border: solid 2px #f7f6f4;
+
+}
+.cat-card img{
+    width: 40px;
+    display: block;
+}
+.cat-card a{
+    margin: 2px 2px;
+}
+.btn-posts{
+    display: flex;
+    justify-content: space-around;
+    width: 62vw;
+    margin: 5rem auto;
+    padding: 20px;
+}
+.card{
+    margin: 2rem;
+    text-align: center;
+}
+.rights{
+    color: darkgray;
+    text-align: center;
+}
